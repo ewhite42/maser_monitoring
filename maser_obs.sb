@@ -1,0 +1,22 @@
+import os
+import subprocess
+import time 
+
+#-------------------------
+print "Loading catalogs..."
+
+Catalog("MMBGroup1.cat")
+# load in configuration
+
+execfile('/users/emwhite/gbt_support/maser_project/maser_monitoring/updateCat.py')
+execfile('/users/emwhite/gbt_support/maser_project/maser_monitoring/MaserDefs.py')
+
+# search for the right source
+    # function is being defined in MaserDefs
+    # needs to be >30 deg elevation
+    # needs to have been observed >1 week ago
+
+# observe source
+
+# update catalog with timestamp
+
